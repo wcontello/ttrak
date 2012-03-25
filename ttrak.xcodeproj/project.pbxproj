@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0072B1A151EA14600BB0533 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0072B19151EA14600BB0533 /* UIKit.framework */; };
+		B0072B1C151EA14600BB0533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0072B1B151EA14600BB0533 /* Foundation.framework */; };
+		B0072B1E151EA14600BB0533 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0072B1D151EA14600BB0533 /* CoreGraphics.framework */; };
+		B0072B24151EA14600BB0533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0072B22151EA14600BB0533 /* InfoPlist.strings */; };
+		B0072B26151EA14600BB0533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0072B25151EA14600BB0533 /* main.m */; };
+		B0072B2A151EA14600BB0533 /* ttrakAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0072B29151EA14600BB0533 /* ttrakAppDelegate.m */; };
+		B0072B2D151EA14600BB0533 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0072B2B151EA14600BB0533 /* MainStoryboard.storyboard */; };
+		B0072B30151EA14600BB0533 /* ttrakMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0072B2F151EA14600BB0533 /* ttrakMainViewController.m */; };
+		B0072B33151EA14600BB0533 /* ttrakFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0072B32151EA14600BB0533 /* ttrakFlipsideViewController.m */; };
+		B0072B3A151EA31700BB0533 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0072B39151EA31700BB0533 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0072B15151EA14600BB0533 /* ttrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0072B19151EA14600BB0533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0072B1B151EA14600BB0533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0072B1D151EA14600BB0533 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0072B21151EA14600BB0533 /* ttrak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ttrak-Info.plist"; sourceTree = "<group>"; };
+		B0072B23151EA14600BB0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0072B25151EA14600BB0533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0072B27151EA14600BB0533 /* ttrak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ttrak-Prefix.pch"; sourceTree = "<group>"; };
+		B0072B28151EA14600BB0533 /* ttrakAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttrakAppDelegate.h; sourceTree = "<group>"; };
+		B0072B29151EA14600BB0533 /* ttrakAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttrakAppDelegate.m; sourceTree = "<group>"; };
+		B0072B2C151EA14600BB0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0072B2E151EA14600BB0533 /* ttrakMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttrakMainViewController.h; sourceTree = "<group>"; };
+		B0072B2F151EA14600BB0533 /* ttrakMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttrakMainViewController.m; sourceTree = "<group>"; };
+		B0072B31151EA14600BB0533 /* ttrakFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ttrakFlipsideViewController.h; sourceTree = "<group>"; };
+		B0072B32151EA14600BB0533 /* ttrakFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttrakFlipsideViewController.m; sourceTree = "<group>"; };
+		B0072B39151EA31700BB0533 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0072B12151EA14600BB0533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0072B1A151EA14600BB0533 /* UIKit.framework in Frameworks */,
+				B0072B1C151EA14600BB0533 /* Foundation.framework in Frameworks */,
+				B0072B1E151EA14600BB0533 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0072B0A151EA14600BB0533 = {
+			isa = PBXGroup;
+			children = (
+				B0072B39151EA31700BB0533 /* Settings.bundle */,
+				B0072B1F151EA14600BB0533 /* ttrak */,
+				B0072B18151EA14600BB0533 /* Frameworks */,
+				B0072B16151EA14600BB0533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0072B16151EA14600BB0533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0072B15151EA14600BB0533 /* ttrak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0072B18151EA14600BB0533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0072B19151EA14600BB0533 /* UIKit.framework */,
+				B0072B1B151EA14600BB0533 /* Foundation.framework */,
+				B0072B1D151EA14600BB0533 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0072B1F151EA14600BB0533 /* ttrak */ = {
+			isa = PBXGroup;
+			children = (
+				B0072B28151EA14600BB0533 /* ttrakAppDelegate.h */,
+				B0072B29151EA14600BB0533 /* ttrakAppDelegate.m */,
+				B0072B2B151EA14600BB0533 /* MainStoryboard.storyboard */,
+				B0072B2E151EA14600BB0533 /* ttrakMainViewController.h */,
+				B0072B2F151EA14600BB0533 /* ttrakMainViewController.m */,
+				B0072B31151EA14600BB0533 /* ttrakFlipsideViewController.h */,
+				B0072B32151EA14600BB0533 /* ttrakFlipsideViewController.m */,
+				B0072B20151EA14600BB0533 /* Supporting Files */,
+			);
+			path = ttrak;
+			sourceTree = "<group>";
+		};
+		B0072B20151EA14600BB0533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0072B21151EA14600BB0533 /* ttrak-Info.plist */,
+				B0072B22151EA14600BB0533 /* InfoPlist.strings */,
+				B0072B25151EA14600BB0533 /* main.m */,
+				B0072B27151EA14600BB0533 /* ttrak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0072B14151EA14600BB0533 /* ttrak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0072B36151EA14600BB0533 /* Build configuration list for PBXNativeTarget "ttrak" */;
+			buildPhases = (
+				B0072B11151EA14600BB0533 /* Sources */,
+				B0072B12151EA14600BB0533 /* Frameworks */,
+				B0072B13151EA14600BB0533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ttrak;
+			productName = ttrak;
+			productReference = B0072B15151EA14600BB0533 /* ttrak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0072B0C151EA14600BB0533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B0072B0F151EA14600BB0533 /* Build configuration list for PBXProject "ttrak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0072B0A151EA14600BB0533;
+			productRefGroup = B0072B16151EA14600BB0533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0072B14151EA14600BB0533 /* ttrak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0072B13151EA14600BB0533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0072B24151EA14600BB0533 /* InfoPlist.strings in Resources */,
+				B0072B2D151EA14600BB0533 /* MainStoryboard.storyboard in Resources */,
+				B0072B3A151EA31700BB0533 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0072B11151EA14600BB0533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0072B26151EA14600BB0533 /* main.m in Sources */,
+				B0072B2A151EA14600BB0533 /* ttrakAppDelegate.m in Sources */,
+				B0072B30151EA14600BB0533 /* ttrakMainViewController.m in Sources */,
+				B0072B33151EA14600BB0533 /* ttrakFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0072B22151EA14600BB0533 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0072B23151EA14600BB0533 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0072B2B151EA14600BB0533 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0072B2C151EA14600BB0533 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0072B34151EA14600BB0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0072B35151EA14600BB0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0072B37151EA14600BB0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ttrak/ttrak-Prefix.pch";
+				INFOPLIST_FILE = "ttrak/ttrak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0072B38151EA14600BB0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ttrak/ttrak-Prefix.pch";
+				INFOPLIST_FILE = "ttrak/ttrak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0072B0F151EA14600BB0533 /* Build configuration list for PBXProject "ttrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0072B34151EA14600BB0533 /* Debug */,
+				B0072B35151EA14600BB0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0072B36151EA14600BB0533 /* Build configuration list for PBXNativeTarget "ttrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0072B37151EA14600BB0533 /* Debug */,
+				B0072B38151EA14600BB0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0072B0C151EA14600BB0533 /* Project object */;
+}
